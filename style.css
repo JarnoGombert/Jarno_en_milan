@@ -46,7 +46,7 @@ main
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
-    min-height: calc(300vh);
+    min-height: calc(190vh);
 }
 
 aside
@@ -87,4 +87,33 @@ main div p
 {
     color: black;
     font-weight: bolder;
+}
+
+footer
+{
+    background-color: lightblue;
+    padding: 15px;
+    height: 200px;
+    text-align: right;
+}
+
+footer p {
+    height: 50px;
+    width: 1300px;
+    padding: 50px 50px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover {
+    color: blue;
+}
+
+#zoeken{
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: lightblue;
 }
